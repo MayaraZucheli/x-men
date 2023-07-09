@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="head">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo">
+    </header>
+
+    <main class="character-selection">
+        <section class="characters">
+            <h1 class="title">Select a character</h1>
+            <ul class="character-list">
+                <li class="character selected" id="cyclops" data-name="Cyclops" data-description="Cyclops (real name: Scott Summers) is a mutant capable of generating concussive force-based, red-colored beams from his eyes.">
+                    <img src="./src/imagens/card-cyclops.jpg" alt="Cyclops">
+                </li>
+                <li class="character" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey (real name: Jean Grey Summers) She was born with psionic powers. She has been described as one of Marvel's most notable and strongest female heroes.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Jean Grey">
+                </li>
+                <li class="character" id="kitty-pryde" data-name="Kitty Pryde" data-description="Kitty Pryde (real name: Katherine Anne Pryde) possesses a phasing ability that allows her to become intangible. This power also disrupts any electrical field she passes through, and lets her simulate levitation.">
+                    <img src="./src/imagens/card-kitty-pryde.jpg" alt="Kitty Pryde">
+                </li>
+                <li class="character" id="magneto" data-name="Magneto" data-description="Magneto (real name: Erik Lehnsherr) is a mutant capable of generating and controlling magnetic fields.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Magneto">
+                </li>
+                <li class="character" id="nightcrawler" data-name="Nightcrawler" data-description="Nightcrawler (real name: Kurt Wagner) possesses superhuman agility, the ability to teleport, and adhesive hands and feet.">
+                    <img src="./src/imagens/card-nightcrawler.jpg" alt="Nightcrawler">
+                </li>
+                <li class="character" id="storm" data-name="Storm" data-description="Storm (real name: Ororo Munroe) is able to control the weather and atmosphere and is considered to be one of the most powerful mutants on the planet.">
+                    <img src="./src/imagens/card-storm.jpg" alt="Storm">
+                </li>
+                <li class="character" id="rogue" data-name="Rogue" data-description="Rogue (real name: Anna Marie LeBeau) is a mutant capable of absorbing the life force, attributes, memories, and superpowers of anyone through physical touch.">
+                    <img src="./src/imagens/card-rogue.jpg" alt="Rogue">
+                </li>
+                <li class="character" id="wolverine" data-name="wolverine" data-description="Wolverine (real name: James Logan Howlett) is a mutant with animal-keen senses, enhanced physical capabilities, a powerful regenerative ability known as a healing factor, and three retractable claws in each hand.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="character-selected">
+            <img class="big-character" src="./src/imagens/card-cyclops.png" alt="cyclops selected">
+            <div class="character-information">
+                <h2 class="character-name" id="character-name">Cyclops</h2>
+                <p class="description" id="description">Cyclops (real name: Scott Summers) is a mutant capable of generating concussive force-based, red-colored beams from his eyes.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
